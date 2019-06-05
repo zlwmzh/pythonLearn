@@ -16,6 +16,9 @@ class KNN:
      train_y ：训练样本的目标属性
     """
     def fit(self,X,Y,k):
+        # X此时是一个矩阵形式，有m行，n列, m行表示m个样本，n列表示每个样本有n个特征属性
+        # Y此时是一个数组形式，中间有m个目标属性
+        # k是一个数字
         self.train_x = X
         self.train_y = Y
         self.k = k
