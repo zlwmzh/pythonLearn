@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47b808be-fcce-4a90-9648-10fc65717e8d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/算法总结/决策树算法整理.txt" afterPath="$PROJECT_DIR$/算法总结/决策树算法整理.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jupyter_notebook_code/2019-06-13 家庭用电预测：线性回归算法（时间与功率&amp;功率与电流之间的关系)[复习1].ipynb" afterPath="$PROJECT_DIR$/jupyter_notebook_code/2019-06-13 家庭用电预测：线性回归算法（时间与功率&amp;功率与电流之间的关系)[复习1].ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,83 +19,86 @@
     <SUITE FILE_PATH="coverage/pythonLearn$04__KFold.coverage" NAME="04_基于决策树的鸢尾花数据分类_KFold Coverage Results" MODIFIED="1560320711603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0611" />
     <SUITE FILE_PATH="coverage/pythonLearn$01_.coverage" NAME="01_决策树构建过程代码理解 Coverage Results" MODIFIED="1560238475813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0611" />
     <SUITE FILE_PATH="coverage/pythonLearn$02_KDTreeAPI.coverage" NAME="02_KDTree的API应用 Coverage Results" MODIFIED="1559715687073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0605" />
+    <SUITE FILE_PATH="coverage/pythonLearn$01_Baggin_KNN.coverage" NAME="01_基于Baggin+KNN鸢尾花数据分类 Coverage Results" MODIFIED="1560492895822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0614" />
     <SUITE FILE_PATH="coverage/pythonLearn$02_KNN.coverage" NAME="02_KNN算法代码实现 Coverage Results" MODIFIED="1559727859472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0605" />
+    <SUITE FILE_PATH="coverage/pythonLearn$03_RF.coverage" NAME="03_基于RF的鸾尾花数据分类 Coverage Results" MODIFIED="1560500316442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0614" />
     <SUITE FILE_PATH="coverage/pythonLearn$05__cross_val_score.coverage" NAME="05_基于决策树的鸢尾花数据分类_cross_val_score Coverage Results" MODIFIED="1560321767226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0611" />
     <SUITE FILE_PATH="coverage/pythonLearn$02_.coverage" NAME="02_基于决策树的鸢尾花数据分类 Coverage Results" MODIFIED="1560240385764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0611" />
+    <SUITE FILE_PATH="coverage/pythonLearn$02_Baggin_.coverage" NAME="02_基于Baggin+决策树鸢尾花数据分类 Coverage Results" MODIFIED="1560493165172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0614" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03_基于决策树的鸢尾花数据分类_交叉验证.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/03_基于决策树的鸢尾花数据分类_交叉验证.py">
+      <file leaf-file-name="01_基于Baggin+KNN鸢尾花数据分类.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0614/01_基于Baggin+KNN鸢尾花数据分类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="1458">
+              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
               <folding>
-                <element signature="e#167#186#0" expanded="true" />
+                <element signature="e#168#183#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/tree/tree.py">
+      <file leaf-file-name="02_基于Baggin+决策树鸢尾花数据分类.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0614/02_基于Baggin+决策树鸢尾花数据分类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18684">
-              <caret line="720" column="26" lean-forward="false" selection-start-line="720" selection-start-column="17" selection-end-line="720" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04_基于决策树的鸢尾花数据分类_KFold.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/04_基于决策树的鸢尾花数据分类_KFold.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="925">
+              <caret line="54" column="55" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="54" selection-end-column="55" />
               <folding>
-                <element signature="e#169#188#0" expanded="true" />
+                <element signature="e#173#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05_基于决策树的鸢尾花数据分类_cross_val_score.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/05_基于决策树的鸢尾花数据分类_cross_val_score.py">
+      <file leaf-file-name="03_基于RF的鸾尾花数据分类.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0614/03_基于RF的鸾尾花数据分类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="410">
+              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
-                <element signature="e#224#243#0" expanded="true" />
+                <element signature="e#162#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_validation.py">
+      <file leaf-file-name="forest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/ensemble/forest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4617">
-              <caret line="191" column="24" lean-forward="false" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
+            <state relative-caret-position="221">
+              <caret line="990" column="36" lean-forward="true" selection-start-line="973" selection-start-column="4" selection-end-line="990" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/utils/validation.py">
+      <file leaf-file-name="bagging.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/ensemble/bagging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5238">
-              <caret line="206" column="4" lean-forward="false" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
+            <state relative-caret-position="-160">
+              <caret line="409" column="8" lean-forward="false" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_split.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
+      <file leaf-file-name="02_基于决策树的鸢尾花数据分类.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/02_基于决策树的鸢尾花数据分类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10746">
-              <caret line="417" column="36" lean-forward="false" selection-start-line="417" selection-start-column="36" selection-end-line="417" selection-end-column="36" />
+            <state relative-caret-position="207">
+              <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categorical.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/categorical.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1132">
+              <caret line="169" column="6" lean-forward="false" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -134,6 +137,9 @@
         <option value="$PROJECT_DIR$/ai_sklearn/0611/02_基于决策树的鸢尾花数据分类.py" />
         <option value="$PROJECT_DIR$/ai_sklearn/0611/04_基于决策树的鸢尾花数据分类_KFold.py" />
         <option value="$PROJECT_DIR$/ai_sklearn/0611/05_基于决策树的鸢尾花数据分类_cross_val_score.py" />
+        <option value="$PROJECT_DIR$/ai_sklearn/0614/01_基于Baggin+KNN鸢尾花数据分类.py" />
+        <option value="$PROJECT_DIR$/ai_sklearn/0614/02_基于Baggin+决策树鸢尾花数据分类.py" />
+        <option value="$PROJECT_DIR$/ai_sklearn/0614/03_基于RF的鸾尾花数据分类.py" />
       </list>
     </option>
   </component>
@@ -164,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,18 +204,24 @@
               <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="0614" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\person\MLCode\pythonLearn\ai_sklearn\0614" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,21 +235,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="01_决策树构建过程代码理解" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.03_基于RF的鸾尾花数据分类">
+    <configuration name="01_基于Baggin+KNN鸢尾花数据分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0611" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0614" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0611/01_决策树构建过程代码理解.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0614/01_基于Baggin+KNN鸢尾花数据分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,38 +272,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="02_KDTree的API应用" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_基于Baggin+决策树鸢尾花数据分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0605" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0614" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythonLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0605/02_KDTree的API应用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="02_KNN算法实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0604" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonLearn" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0604/02_KNN算法实现.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0614/02_基于Baggin+决策树鸢尾花数据分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -311,6 +304,24 @@
       <module name="pythonLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0605/02_KNN算法代码实现.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="03_基于RF的鸾尾花数据分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0614" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonLearn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0614/03_基于RF的鸾尾花数据分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,18 +363,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.01_决策树构建过程代码理解" />
-      <item index="1" class="java.lang.String" itemvalue="Python.02_KNN算法实现" />
-      <item index="2" class="java.lang.String" itemvalue="Python.02_KDTree的API应用" />
-      <item index="3" class="java.lang.String" itemvalue="Python.02_基于决策树的鸢尾花数据分类" />
-      <item index="4" class="java.lang.String" itemvalue="Python.04_基于决策树的鸢尾花数据分类_KFold" />
+      <item index="0" class="java.lang.String" itemvalue="Python.02_基于决策树的鸢尾花数据分类" />
+      <item index="1" class="java.lang.String" itemvalue="Python.04_基于决策树的鸢尾花数据分类_KFold" />
+      <item index="2" class="java.lang.String" itemvalue="Python.01_基于Baggin+KNN鸢尾花数据分类" />
+      <item index="3" class="java.lang.String" itemvalue="Python.02_基于Baggin+决策树鸢尾花数据分类" />
+      <item index="4" class="java.lang.String" itemvalue="Python.03_基于RF的鸾尾花数据分类" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.04_基于决策树的鸢尾花数据分类_KFold" />
-        <item index="1" class="java.lang.String" itemvalue="Python.02_基于决策树的鸢尾花数据分类" />
-        <item index="2" class="java.lang.String" itemvalue="Python.02_KDTree的API应用" />
-        <item index="3" class="java.lang.String" itemvalue="Python.02_KNN算法实现" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.03_基于RF的鸾尾花数据分类" />
+        <item index="1" class="java.lang.String" itemvalue="Python.02_基于Baggin+决策树鸢尾花数据分类" />
+        <item index="2" class="java.lang.String" itemvalue="Python.01_基于Baggin+KNN鸢尾花数据分类" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04_基于决策树的鸢尾花数据分类_KFold" />
+        <item index="4" class="java.lang.String" itemvalue="Python.02_基于决策树的鸢尾花数据分类" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +394,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -390,7 +401,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3215223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29002625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -418,64 +429,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/03_基于决策树的鸢尾花数据分类_交叉验证.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#167#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/tree/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19440">
-          <caret line="720" column="26" lean-forward="false" selection-start-line="720" selection-start-column="17" selection-end-line="720" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/04_基于决策树的鸢尾花数据分类_KFold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#169#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5157">
-          <caret line="191" column="24" lean-forward="true" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5562">
-          <caret line="206" column="4" lean-forward="false" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11259">
-          <caret line="417" column="36" lean-forward="true" selection-start-line="417" selection-start-column="36" selection-end-line="417" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/05_基于决策树的鸢尾花数据分类_cross_val_score.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding>
-            <element signature="e#224#243#0" expanded="true" />
+            <element signature="e#224#243#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -720,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/02_基于决策树的鸢尾花数据分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1111">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10746">
@@ -761,10 +713,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/05_基于决策树的鸢尾花数据分类_cross_val_score.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="756">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
-            <element signature="e#224#243#0" expanded="true" />
+            <element signature="e#224#243#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,17 +726,89 @@
         <state relative-caret-position="135">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="35" />
           <folding>
-            <element signature="e#169#188#0" expanded="true" />
+            <element signature="e#169#188#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/03_基于决策树的鸢尾花数据分类_交叉验证.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
+        <state relative-caret-position="27">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
-            <element signature="e#167#186#0" expanded="true" />
+            <element signature="e#167#186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/categorical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1132">
+          <caret line="169" column="6" lean-forward="false" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/ensemble/bagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="409" column="8" lean-forward="false" selection-start-line="409" selection-start-column="8" selection-end-line="409" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/06_基于决策树的鸢尾花数据分类_可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#166#185#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="990" column="36" lean-forward="true" selection-start-line="973" selection-start-column="4" selection-end-line="990" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0614/01_基于Baggin+KNN鸢尾花数据分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#168#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0614/02_基于Baggin+决策树鸢尾花数据分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="54" column="55" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="54" selection-end-column="55" />
+          <folding>
+            <element signature="e#173#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/02_基于决策树的鸢尾花数据分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0614/03_基于RF的鸾尾花数据分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="e#162#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
