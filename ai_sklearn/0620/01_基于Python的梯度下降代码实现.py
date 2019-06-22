@@ -213,6 +213,7 @@ if __name__ == '__main__':
     N = 100;
     b = np.random.normal(loc=-1.0,scale=1.0,size=N)
     c = np.random.normal(loc=5.0, scale=1.0, size=N)
+    print(b)
     # calc_min_value_v1_BGD(b,c,alpha=0.1)
     # calc_min_value_v1_SGB(b,c,alpha=0.01,tol=1e-8)
     calc_min_v1_MBGD(b,c,alpha=0.8,tol=1e-8)
