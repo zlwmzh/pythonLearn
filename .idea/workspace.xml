@@ -17,6 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pythonLearn$02_AdaBoost.coverage" NAME="02_基于AdaBoost的鸢尾花数据分类 Coverage Results" MODIFIED="1560916029209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0618" />
     <SUITE FILE_PATH="coverage/pythonLearn$04__KFold.coverage" NAME="04_基于决策树的鸢尾花数据分类_KFold Coverage Results" MODIFIED="1560320711603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0611" />
+    <SUITE FILE_PATH="coverage/pythonLearn$01_K_Means.coverage" NAME="01_K-Means算法实现 Coverage Results" MODIFIED="1561455634936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0625" />
     <SUITE FILE_PATH="coverage/pythonLearn$05__cross_val_score.coverage" NAME="05_基于决策树的鸢尾花数据分类_cross_val_score Coverage Results" MODIFIED="1560321767226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0611" />
     <SUITE FILE_PATH="coverage/pythonLearn$04_Extra_Tree.coverage" NAME="04_基于Extra Tree的鸾尾花数据分类 Coverage Results" MODIFIED="1560829410662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0617" />
     <SUITE FILE_PATH="coverage/pythonLearn$02_Baggin_.coverage" NAME="02_基于Baggin+决策树鸢尾花数据分类 Coverage Results" MODIFIED="1560493165172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ai_sklearn/0614" />
@@ -31,73 +32,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01_AdaBoost算法执行过程案例理解.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0618/01_AdaBoost算法执行过程案例理解.py">
+      <file leaf-file-name="01_K-Means算法实现.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0625/01_K-Means算法实现.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02_基于AdaBoost的鸢尾花数据分类.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0618/02_基于AdaBoost的鸢尾花数据分类.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1593">
-              <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+            <state relative-caret-position="282">
+              <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
               <folding>
-                <element signature="e#168#187#0" expanded="true" />
+                <element signature="e#537#576#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_GBDT算法的过程理解代码.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0618/03_GBDT算法的过程理解代码.py">
+      <file leaf-file-name="01_基于Python的梯度下降代码实现.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0620/01_基于Python的梯度下降代码实现.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="68" column="7" lean-forward="false" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            <state relative-caret-position="-2592">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01_模拟线性回归.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/01_模拟线性回归.py">
+      <file leaf-file-name="02_KNN算法实现.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/02_KNN算法实现.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="-459">
+              <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdaBoost算法Homework.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0618/AdaBoost算法Homework.py">
+      <file leaf-file-name="samples_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02_基于决策树的鸢尾花数据分类.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ai_sklearn/0611/02_基于决策树的鸢尾花数据分类.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="37" column="79" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weight_boosting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/ensemble/weight_boosting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9720">
-              <caret line="377" column="0" lean-forward="false" selection-start-line="372" selection-start-column="15" selection-end-line="377" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="695" column="74" lean-forward="true" selection-start-line="694" selection-start-column="0" selection-end-line="695" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -117,6 +88,7 @@
       <find>max_count</find>
       <find>query_by_kdtree</find>
       <find>print</find>
+      <find>6.6765885791</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,6 +119,7 @@
         <option value="$PROJECT_DIR$/ai_sklearn/0618/AdaBoost算法Homework.py" />
         <option value="$PROJECT_DIR$/ai_sklearn/0618/03_GBDT算法的过程理解代码.py" />
         <option value="$PROJECT_DIR$/ai_sklearn/0604/01_模拟线性回归.py" />
+        <option value="$PROJECT_DIR$/ai_sklearn/0625/01_K-Means算法实现.py" />
       </list>
     </option>
   </component>
@@ -199,13 +172,6 @@
               <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0602" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
               <item name="0603" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,44 +184,20 @@
               <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0605" type="462c0819:PsiDirectoryNode" />
+              <item name="0620" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0606" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0611" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0614" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0617" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="ai_sklearn" type="462c0819:PsiDirectoryNode" />
-              <item name="0618" type="462c0819:PsiDirectoryNode" />
+              <item name="0625" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.01_K-Means算法实现">
     <configuration name="01_AdaBoost算法执行过程案例理解" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +258,24 @@
       <module name="pythonLearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0614/01_基于Baggin+KNN鸢尾花数据分类.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="01_K-Means算法实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0625" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonLearn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0625/01_K-Means算法实现.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,24 +334,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="05_基于RandomTreesEmbedding的鸢尾花数据增维" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ai_sklearn/0617" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonLearn" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ai_sklearn/0617/05_基于RandomTreesEmbedding的鸢尾花数据增维.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="05_基于决策树的鸢尾花数据分类_cross_val_score" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,17 +353,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.05_基于RandomTreesEmbedding的鸢尾花数据增维" />
-      <item index="1" class="java.lang.String" itemvalue="Python.05_基于决策树的鸢尾花数据分类_cross_val_score" />
-      <item index="2" class="java.lang.String" itemvalue="Python.01_基于Baggin+KNN鸢尾花数据分类" />
-      <item index="3" class="java.lang.String" itemvalue="Python.02_基于Baggin+决策树鸢尾花数据分类" />
-      <item index="4" class="java.lang.String" itemvalue="Python.04_基于Extra Tree的鸾尾花数据分类" />
+      <item index="0" class="java.lang.String" itemvalue="Python.05_基于决策树的鸢尾花数据分类_cross_val_score" />
+      <item index="1" class="java.lang.String" itemvalue="Python.01_基于Baggin+KNN鸢尾花数据分类" />
+      <item index="2" class="java.lang.String" itemvalue="Python.02_基于Baggin+决策树鸢尾花数据分类" />
+      <item index="3" class="java.lang.String" itemvalue="Python.04_基于Extra Tree的鸾尾花数据分类" />
+      <item index="4" class="java.lang.String" itemvalue="Python.01_K-Means算法实现" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.04_基于Extra Tree的鸾尾花数据分类" />
-        <item index="1" class="java.lang.String" itemvalue="Python.02_基于Baggin+决策树鸢尾花数据分类" />
-        <item index="2" class="java.lang.String" itemvalue="Python.01_基于Baggin+KNN鸢尾花数据分类" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.01_K-Means算法实现" />
+        <item index="1" class="java.lang.String" itemvalue="Python.04_基于Extra Tree的鸾尾花数据分类" />
+        <item index="2" class="java.lang.String" itemvalue="Python.02_基于Baggin+决策树鸢尾花数据分类" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01_基于Baggin+KNN鸢尾花数据分类" />
       </list>
     </recent_temporary>
   </component>
@@ -440,18 +383,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27708334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2808399" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18897638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39895013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -477,39 +421,11 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/02_KNN算法实现.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/多项式线性回归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0602/01_机器学习编程流程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/datas/iris.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0602/03_KNN鸢尾花数据分类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
@@ -559,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0603/01_KNN算法伪代码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0602/01_机器学习编程流程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -588,24 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/02_KNN算法实现.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0603/02_机器学习编程流程.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ai_sklearn/0603/03_KNN鸾尾花数据分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -817,7 +712,7 @@
         <state relative-caret-position="1593">
           <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
           <folding>
-            <element signature="e#168#187#0" expanded="true" />
+            <element signature="e#168#187#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -832,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0618/01_AdaBoost算法执行过程案例理解.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="1458">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -841,8 +736,66 @@
     <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/01_模拟线性回归.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="695" column="74" lean-forward="true" selection-start-line="694" selection-start-column="0" selection-end-line="695" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0603/03_KNN鸾尾花数据分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0603/01_KNN算法伪代码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0604/02_KNN算法实现.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0620/02_基于NumPy的高斯分布的随机数产生.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0620/01_基于Python的梯度下降代码实现.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2592">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ai_sklearn/0625/01_K-Means算法实现.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="e#537#576#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
