@@ -76,15 +76,7 @@ class KMeansByMicky(object):
                 #print(np.mean(center_sample[:,0]))
                 #print(np.mean(center_sample,axis=0))
                 self.centers[k] = np.mean(center_sample,axis=0)
-            # print(self.centers)
-            if num_iter == self.max_iter:
-               plt.subplot(1, 2, 2)
-               for index,value in center_idx_sample_index.items():
-                   sample = self.X[value]
-                   print('sample:')
-                   print(sample[:,0])
-                   plt.scatter(sample[:,0],  sample[:,1])
-               plt.show()
+            print(self.centers)
             num_iter += 1
 
 
