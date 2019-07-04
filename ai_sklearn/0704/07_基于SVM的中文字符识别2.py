@@ -9,7 +9,6 @@
 import numpy as np
 import pandas as pd
 import os
-from sklearn.preprocessing import MinMaxScaler
 from scipy.misc import imresize,imread
 from sklearn.svm import SVC
 
@@ -39,22 +38,35 @@ if __name__ == '__main__':
             path = train_path + filename
             img = imread(path)
             img = imresize(img,(16,16))
-            img = img.ravel()
-            img = MinMaxScaler().fit_transform(img.reshape(-1,1))
             # w,h,px = img.shape
             # img = np.reshape(img,(w * h, px))
             # print(img)
-            x_train.append(img.ravel())
-            # 添加目标属性
-            if count <= length:
-                # print('目标属性:{}'.format(y_target[tartget_index]))
-                y_train.append(y_target[tartget_index])
+            # 遍历所有样本，每次使用一个样本，更新模型参数
+
+            img = img.ravel()
+            img = img[np.where(img < 230)]
+
+            # img = img.ravel()
+
+            # print(img)
+            if(len(img)>100):
+                # print(np.shape(img))
+                x_train.append(img[:100])
+                # 添加目标属性
+                if count <= length:
+                    # print('目标属性:{}'.format(y_target[tartget_index]))
+                    y_train.append(y_target[tartget_index])
+            else:
+                print('不满足')
+
             count += 1
         tartget_index += 1
             # print(np.shape(img))
+    x_train = np.asarray(x_train)
+    y_train = np.asarray(y_train)
     print(np.shape(x_train))
     print(np.shape(y_train))
-
+    # print(x_train)
     # 测试集
     tartget_index = 0
     for test_path in list_path_test:
@@ -63,32 +75,47 @@ if __name__ == '__main__':
         for filename in os.listdir(test_path):
             path = test_path + filename
             img = imread(path)
-            # img = imresize(img, (16, 16))
             img = imresize(img,(16,16))
             img = img.ravel()
-            img = MinMaxScaler().fit_transform(img.reshape(-1,1))
-            x_test.append(img.ravel())
-            # 添加目标属性
-            if count <= length:
-                # print('目标属性:{}'.format(y_target[tartget_index]))
-                y_test.append(y_target[tartget_index])
+
+            img = img.ravel()
+            img = img[np.where(img < 230)]
+
+            # img = img.ravel()
+
+            # print(img)
+            if (len(img) > 100):
+                print(np.shape(img))
+                x_test.append(img[:100])
+                # 添加目标属性
+                if count <= length:
+                    # print('目标属性:{}'.format(y_target[tartget_index]))
+                    y_test.append(y_target[tartget_index])
+            else:
+                print('不满足')
+
             count += 1
         tartget_index += 1
+
+
+    # y_test = np.asarray(y_test)
+    # x_test = np.asarray(x_test)
+    #
     # print(np.shape(x_test))
+    # print(np.shape(y_test))
 
-    algo = SVC(kernel='rbf',C=6,gamma=0.001)
-    x_train = np.asarray(x_train)
-    y_train = np.asarray(y_train)
-    y_test = np.asarray(y_test)
-    x_test = np.asarray(x_test)
+    algo = SVC(kernel='rbf',C=1,gamma=0.001)
+
     algo.fit(x_train,y_train)
-    # print(x_train)
-
-    ipath = '../datas/124390.png'
-    img = imread(ipath)
-    img = imresize(img,(16,16))
-    img = MinMaxScaler().fit_transform(img.reshape(-1, 1))
-    print(algo.predict([img.ravel()]))
+    # # print(x_train)
+    #
+    # ipath = '../datas/验证数据/00000/72.png'
+    # img = imread(ipath)
+    # img = imresize(img,(16,16))
+    # img = img.ravel()
+    # img = img[img < 150]
+    # print(img)
+    # print(algo.predict([img.ravel()]))
     # print([x_test[0]])
     print('训练集上的预测值：{}'.format(algo.predict(x_train)))
     print('训练集模型效果：{}'.format(algo.score(x_train,y_train)))

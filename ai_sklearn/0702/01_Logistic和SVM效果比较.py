@@ -8,6 +8,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC,SVC
 from sklearn.datasets import make_circles
@@ -138,5 +139,45 @@ def f3():
     plt.plot(support_vectors[:, 0], support_vectors[:, 1], 'b*')
     plt.show()
 
+def f4():
+    x, y = make_circles(n_samples=100,random_state=214,noise=0.05,factor=0.5)
+
+    poly = PolynomialFeatures(degree=2)
+    # 获取扩展之后
+    poly_x = poly.fit_transform(x,y)
+    # 为了可视化，取x1^2，x2^2
+    poly_x = poly_x[:,[3,5]]
+    print("扩展的组合方式：{}".format(poly.get_feature_names()))
+
+    algo2 = SVC(kernel='linear',C = 10000)
+    algo2.fit(poly_x,y)
+    coef_ = algo2.coef_[0]
+    intercept_ = algo2.intercept_
+    k1 = - coef_[0]/ coef_[1]
+    b1 = -intercept_ / coef_[1]
+    print("SVM的系数:{}".format(coef_))
+    print("SVM的截距项:{}".format(intercept_))
+    print("模型效果:{}".format(algo2.score(poly_x, y)))
+
+    plt.plot([-0.5, 1], [-0.5 * k1 + b1, 1 * k1 + b1], 'b-')
+    plt.scatter(poly_x[:,0],poly_x[:,1],c = y)
+    plt.plot(algo2.support_vectors_[:,0],algo2.support_vectors_[:,1],'r*')
+    plt.grid(True)
+    plt.show()
+
+def f5():
+    # 1. 产生数据
+    x, y = make_circles(n_samples=100,random_state=214,noise=0.05,factor=0.5)
+    algo2 = SVC(kernel='poly',C = 1, degree=2,probability=True)
+    algo2.fit(x,y)
+    print("模型效果：{}".format(algo2.score(x,y)))
+    print("预测值：{}".format(algo2.predict(x)))
+    print("决策函数的值：\n{}".format(algo2.decision_function(x)))
+    print("预测为各个类别的概率(要求probablity为True)：\n{}".format(algo2.predict_proba(x)))
+
+    plt.scatter(x[:,0],x[:,1],c = y)
+    plt.plot(algo2.support_vectors_[:,0],algo2.support_vectors_[:,1],'r*')
+    plt.show()
+
 if __name__ == '__main__':
-    f2()
+    f5()
